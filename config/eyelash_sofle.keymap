@@ -85,7 +85,7 @@
 &tog 1          &kp LEFT_WIN        &kp LEFT_ALT  &kp SPACE       &mo 1   &tog 2    &kp ENTER        &mo 1   &kp SPACE  &kp BSPC   &kp RIGHT_SHIFT  &kp ESC
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp J K>;
             display-name = "LAYER0";
         };
 
