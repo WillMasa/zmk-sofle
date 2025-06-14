@@ -640,12 +640,12 @@ rect.held, rect.combo.held {
 <text x="196" y="259" class="combo tap">&amp;gh</text>
 </g>
 <g class="combo combopos-3">
-<path d="M227,271 l-69,-10" class="combo"/>
-<path d="M227,271 l69,10" class="combo"/>
-<rect rx="6" ry="6" x="213" y="258" width="28" height="26" class="combo"/>
+<path d="M171,254 l125,26" class="combo"/>
+<path d="M171,254 l-125,-26" class="combo"/>
+<rect rx="6" ry="6" x="157" y="241" width="28" height="26" class="combo"/>
 <a href="#layer1">
-<text x="227" y="271" class="combo tap layer-activator">layer1</text>
-</a><text x="227" y="282" class="combo hold">toggle</text>
+<text x="171" y="254" class="combo tap layer-activator">layer1</text>
+</a><text x="171" y="265" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1020,12 +1020,12 @@ rect.held, rect.combo.held {
 <text x="196" y="259" class="combo tap">&amp;gh</text>
 </g>
 <g class="combo combopos-3">
-<path d="M227,271 l-69,-10" class="combo"/>
-<path d="M227,271 l69,10" class="combo"/>
-<rect rx="6" ry="6" x="213" y="258" width="28" height="26" class="combo"/>
+<path d="M171,254 l125,26" class="combo"/>
+<path d="M171,254 l-125,-26" class="combo"/>
+<rect rx="6" ry="6" x="157" y="241" width="28" height="26" class="combo"/>
 <a href="#layer1">
-<text x="227" y="271" class="combo tap layer-activator">layer1</text>
-</a><text x="227" y="282" class="combo hold">toggle</text>
+<text x="171" y="254" class="combo tap layer-activator">layer1</text>
+</a><text x="171" y="265" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
@@ -1375,12 +1375,12 @@ rect.held, rect.combo.held {
 <text x="196" y="259" class="combo tap">&amp;gh</text>
 </g>
 <g class="combo combopos-3">
-<path d="M227,271 l-69,-10" class="combo"/>
-<path d="M227,271 l69,10" class="combo"/>
-<rect rx="6" ry="6" x="213" y="258" width="28" height="26" class="combo"/>
+<path d="M171,254 l125,26" class="combo"/>
+<path d="M171,254 l-125,-26" class="combo"/>
+<rect rx="6" ry="6" x="157" y="241" width="28" height="26" class="combo"/>
 <a href="#layer1">
-<text x="227" y="271" class="combo tap layer-activator">layer1</text>
-</a><text x="227" y="282" class="combo hold">toggle</text>
+<text x="171" y="254" class="combo tap layer-activator">layer1</text>
+</a><text x="171" y="265" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
