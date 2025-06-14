@@ -202,3 +202,5 @@ combos:
   k: {t: layer1, h: toggle}
 - p: [53, 55]
   k: '&gh'
+- p: [53, 56]
+  k: {t: layer1, h: toggle}
