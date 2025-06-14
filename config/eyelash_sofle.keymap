@@ -85,7 +85,7 @@
             bindings = <
 &kp ESC         &mt LC(LS(TAB)) N1  &kp N2        &mt LC(TAB) N3  &kp N4     &kp N5    &kp UP_ARROW     &kp N6  &kp N7     &kp N8     &kp N9           &kp N0    &kp LBKT
 &kp TAB         &kp Q               &kp W         &kp E           &kp R      &kp T     &kp DOWN_ARROW   &kp Y   &kp U      &kp I      &kp O            &kp P     &kp APOS
-&kp LEFT_SHIFT  &kp A               &kp S         &kp D           &kp F      &kp G     &kp LEFT_ARROW   &kp H   &kp J      &kp K      &kp L            &kp SEMI  &mt INT1 SQT
+&kp LEFT_SHIFT  &kp A               &kp S         &kp D           &kp F      &kp G     &kp LEFT_ARROW   &kp H   &kp J      &kp K      &kp L            &kp SEMI  &mt GRAVE INT1
 &kp LCTRL       &kp Z               &kp X         &kp C           &kp V      &kp B     &kp RIGHT_ARROW  &kp N   &kp M      &kp COMMA  &kp DOT          &kp FSLH  &kp ENTER
 &trans          &kp LEFT_WIN        &kp LEFT_ALT  &kp SPACE       &kp LCTRL  &mo 1     &kp ENTER        &mo 1   &kp SPACE  &kp BSPC   &kp RIGHT_SHIFT  &kp ESC
             >;
@@ -96,11 +96,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4                 &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &kp DEL
-&kp CAPS    &kp C_MENU       &kp UP_ARROW    &mkp RCLK        &mkp MCLK              &trans             &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
-&kp LSHFT   &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &mkp LCLK              &trans             &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LCTRL   &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR        &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans           &trans          &trans           &mt DOUBLE_QUOTES SQT  &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
+&kp GRAVE   &kp F1              &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &kp DEL
+&kp CAPS    &kp K_CONTEXT_MENU  &kp UP_ARROW    &mkp RCLK        &mkp MCLK        &trans             &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
+&kp LSHFT   &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW  &mkp LCLK        &trans             &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp LCTRL   &rgb_ug RGB_OFF     &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
+&kp C_MUTE  &trans              &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
             display-name = "layer1";
