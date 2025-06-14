@@ -17,7 +17,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - {t: E, h: 'Alt+$$mdi:keyboard-tab$$'}
+  - E
   - R
   - T
   - $$mdi:arrow-down-bold$$
@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - INT1
+  - {t: '''', h: INT1, s: '"'}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -53,12 +53,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: layer1, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-control$$
   - layer1
-  - {t: '3', h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - layer1
   - $$mdi:keyboard-space$$
@@ -122,8 +122,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:mouse-left-click-outline$$
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -186,7 +186,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - LAYER0
+  - {t: LAYER0, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: LAYER0, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -196,7 +196,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [55, 56]
+- p: [54, 53]
   k: '&bd'
-- p: [55, 60]
+- p: [60, 56]
   k: {t: layer1, h: toggle}
+- p: [53, 55]
+  k: '&gh'
