@@ -76,6 +76,11 @@
             bindings = <&gh>;
             key-positions = <53 55>;
         };
+
+        dsa {
+            bindings = <&tog 1>;
+            key-positions = <53 56>;
+        };
     };
 
     keymap {
