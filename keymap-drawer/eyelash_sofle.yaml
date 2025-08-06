@@ -268,4 +268,4 @@ combos:
 - p: [53, 55]
   k: '&gh'
 - p: [56, 39]
-  k: {t: '3', h: toggle}
+  k: {t: '4', h: toggle}
