@@ -63,7 +63,7 @@
         compatible = "zmk,combos";
 
         db {
-            bindings = <&bd>;
+            bindings = <&to 3>;
             key-positions = <54 53>;
         };
 
@@ -127,8 +127,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &gn     &gh     &bd     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &to 0   &trans  &to 0     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &kp R   &to 0     &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
